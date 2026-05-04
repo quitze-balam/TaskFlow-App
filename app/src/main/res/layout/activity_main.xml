@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="40dp"
+    android:paddingBottom="24dp"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp">
+
+    <TextView
+        android:id="@+id/TextWorkTrack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WorkTrack"
+        android:textSize="24sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/TextRegistroDeActividad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registro de Actividades"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_marginTop="8dp"/>
+
+    <ListView
+        android:id="@+id/ListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+ Agregar actividad"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

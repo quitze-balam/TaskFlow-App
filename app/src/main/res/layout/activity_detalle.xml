@@ -1,0 +1,58 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtDetalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detalle de Actividad"
+        android:textSize="22sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/txtDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actividad: QA testing módulo login"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:id="@+id/txtHoras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Horas: 4"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnCompletada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marcar como completada"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Editar"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>

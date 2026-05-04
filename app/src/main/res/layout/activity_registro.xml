@@ -1,0 +1,45 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/TextView_NuevaActividad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nueva Actividad"
+        android:textSize="22sp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/etDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción de la actividad"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/etHoras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Horas trabajadas"
+        android:inputType="number"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
